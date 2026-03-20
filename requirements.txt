@@ -1,0 +1,22 @@
+# Core Data Processing
+pandas==2.2.2
+numpy==1.26.4
+
+# API Requests
+requests==2.32.3
+
+# Database (PostgreSQL)
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.30
+
+# Airflow (Workflow Orchestration)
+apache-airflow==2.9.3
+
+# Data Handling & Utilities
+python-dotenv==1.0.1
+
+# Date & Time Handling
+python-dateutil==2.9.0.post0
+
+# Optional (for logging / debugging)
+loguru==0.7.2
