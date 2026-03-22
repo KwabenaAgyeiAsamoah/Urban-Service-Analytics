@@ -11,8 +11,7 @@ This project demonstrates a complete modern data pipeline:
 	•	Workflow orchestration using Apache Airflow
 	•	Infrastructure provisioning using Terraform (Azure)
 	•	Business intelligence reporting using Power BI
-	![Test](docs/architecture/urban_data_pipeline_architecture.png)
-
+	
 ## Business Objective
 
 The objective of this project is to build an end-to-end data platform that transforms raw urban service complaint data into actionable insights for decision-making.
