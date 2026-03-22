@@ -1,6 +1,6 @@
-Urban Service Analytics Platform
+## Urban Service Analytics Platform
 
-📌 Overview
+## Overview
 
 Urban Service Analytics is an end-to-end data engineering and analytics project designed to ingest, process, store, and visualize urban service complaint data (NYC 311).
 
@@ -12,7 +12,7 @@ This project demonstrates a complete modern data pipeline:
 	•	Infrastructure provisioning using Terraform (Azure)
 	•	Business intelligence reporting using Power BI
 
-    Business Objective
+## Business Objective
 
 The objective of this project is to build an end-to-end data platform that transforms raw urban service complaint data into actionable insights for decision-making.
 
@@ -23,7 +23,7 @@ Specifically, the solution aims to:
 	•	Enable data-driven decision-making through interactive dashboards
 	•	Provide real-time or near-real-time visibility into urban service performance
 
-    Architecture
+   ## Architecture
 ![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
 
   ##  URBAN-SERVICE-ANALYTICS/
@@ -58,7 +58,7 @@ Specifically, the solution aims to:
 ├── README.md
 └── .gitignore##
 
-Technologies Used
+## Technologies Used
 	•	Python – ETL pipeline development
 	•	Apache Airflow – Workflow orchestration
 	•	PostgreSQL – Structured data storage
@@ -66,14 +66,14 @@ Technologies Used
 	•	Power BI – Data visualization & reporting
 	•	REST API – Data ingestion
 
-    Data Pipeline (End-to-End)
+ ##   Data Pipeline (End-to-End)
 
     Data Ingestion (ingest_api.py)
 	•	Connects to NYC 311 API
 	•	Retrieves raw JSON data
 	•	Converts to structured format (CSV)
 
-    Data Transformation (transform_data.py, Clean_data.py)
+##    Data Transformation (transform_data.py, Clean_data.py)
 	•	Handles missing values
 	•	Standardizes formats
 	•	Selects relevant columns:
@@ -83,7 +83,7 @@ Technologies Used
 	•	created_date
 	•	latitude & longitude 
 
-    Data Storage
+  ##  Data Storage
 
 📁 Data Lake (load_to_data_lake.py)
 Stores cleaned data in:
@@ -94,7 +94,7 @@ Database (load_to_db.py)
 	•	Supports querying for analytics
 
 
-    Workflow Orchestration (Airflow)
+## Workflow Orchestration (Airflow)
 
 DAG: civicpulse_pipeline.py
 Pipeline stages:
@@ -119,7 +119,7 @@ Key Files:
 	•	variables.tf → Parameterization:Trends reveal temporal spikes in service demand
 	•	output.tf → Outputs:Geographic clustering highlights service pressure areas
 
-    Power BI Dashboard
+## Power BI Dashboard
 
 The final layer delivers insights through an interactive dashboard.
 
@@ -138,7 +138,7 @@ Key Features:
 🎛 Dropdown Slicer (Interactive Filter)
 ![alt text](docs/architecture/Dropdown_Slicer.png)
 
-Key Insights
+## Key Insights
 	•	Complaint volume varies significantly across boroughs
 	•	A few complaint types dominate overall volume
 	•	Temporal trends reveal spikes in service demand
