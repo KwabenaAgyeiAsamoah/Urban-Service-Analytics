@@ -11,6 +11,7 @@ This project demonstrates a complete modern data pipeline:
 	•	Workflow orchestration using Apache Airflow
 	•	Infrastructure provisioning using Terraform (Azure)
 	•	Business intelligence reporting using Power BI
+	![Test](docs/architecture/urban_data_pipeline_architecture.png)
 
 ## Business Objective
 
