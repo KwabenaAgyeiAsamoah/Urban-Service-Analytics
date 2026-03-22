@@ -24,44 +24,37 @@ Specifically, the solution aims to:
 	•	Provide real-time or near-real-time visibility into urban service performance
 
    ## Architecture
-![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
 
-## 📂 Project Structure
+![Architecture Diagram](docs/architecture/urban_data_pipeline_architecture.png)
 
-  ##  URBAN-SERVICE-ANALYTICS/
+## 📁 Project Structure
+
+```bash
 URBAN-SERVICE-ANALYTICS/
-│
 ├── airflow/
-│   └── civicpulse_pipeline.py        # Airflow DAG (ETL orchestration)
-│
+│   └── civicpulse_pipeline.py
 ├── data/
 │   ├── raw/
-│   │   └── nyc_311_raw.csv           # Raw ingested data
+│   │   └── nyc_311_raw.csv
 │   └── processed/
-│       └── nyc_311_clean.csv         # Cleaned dataset
-│
+│       └── nyc_311_clean.csv
 ├── docs/
 │   └── architecture/
 │       └── urban_data_pipeline_architecture.png
-│
 ├── src/
-│   ├── ingest_api.py                # Extract data from API
-│   ├── transform_data.py            # Clean and transform data
-│   ├── clean_data.py                # Additional cleaning logic
-│   ├── load_to_data_lake.py         # Store data in data lake
-│   └── load_to_db.py                # Load data into PostgreSQL
-│
+│   ├── ingest_api.py
+│   ├── transform_data.py
+│   ├── clean_data.py
+│   ├── load_to_data_lake.py
+│   └── load_to_db.py
 ├── terraform/
-│   ├── main.tf                     # Infrastructure resources
-│   ├── provider.tf                 # Azure provider config
-│   ├── variables.tf                # Input variables
-│   └── output.tf                   # Outputs
-│
+│   ├── main.tf
+│   ├── provider.tf
+│   ├── variables.tf
+│   └── output.tf
 ├── requirements.txt
 ├── README.md
-└── .gitignore ##
-
-## Technologies Used
+└── .gitignore
 
 	•	Python – ETL pipeline development
 	•	Apache Airflow – Workflow orchestration
@@ -129,18 +122,12 @@ The final layer delivers insights through an interactive dashboard.
 
 Key Features:
 
-📈 Complaints Over Time
-![alt text](docs/architecture/NYC_311_Complaints_Over_Time.png)
-📊 Top Complaint Types
-![alt text](docs/architecture/Top_Complaint_Types _In_NYC.png)
-🥧 Complaints by Borough
-![alt text](docs/architecture/NYC_Complaint_by_Borough.png)
-🍩 Complaint Status Distribution
-![alt text](docs/architecture/Complaint_of_Status_Distribution.png)
-🗺 NYC Complaint Map
-![alt text](docs/architecture/NYC_311_Complaint_Overview.png)
-🎛 Dropdown Slicer (Interactive Filter)
-![alt text](docs/architecture/Dropdown_Slicer.png)
+![Complaints Over Time](docs/architecture/NYC_311_Complaints_Over_Time.png)
+![Top Complaint Types](docs/architecture/Top_Complaint_Types_In_NYC.png)
+![Complaints by Borough](docs/architecture/NYC_Complaint_by_Borough.png)
+![Complaint Status Distribution](docs/architecture/Complaint_of_Status_Distribution.png)
+![NYC Complaint Map](docs/architecture/NYC_311_Complaints_Map.png)
+![Dropdown Slicer](docs/architecture/Dropdown_Slicer.png)
 
 ## Key Insights
 	•	Complaint volume varies significantly across boroughs
@@ -171,10 +158,9 @@ Key Features:
 	•	Load .pbix file
 	•	Connect to database or CSV
 	•	Explore 
-![alt text](docs/architecture/count_complaints_for_each_location_type.png)
-![alt text](docs/architecture/Complian_by_Complaints_type.png)
-![alt text]docs/architecture/Most frequent_descriptor_for_noise-residential.png)
-
+![Count of complaints for each location type](docs/architecture/count_complaints_for_each_location_type.png)
+![Complaint by complaints type](docs/architecture/Complian_by_Complaints_type.png)
+![Most frequent descriptor for noise residential](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)
 
     Future Improvements
 	•	Real-time streaming pipeline (Kafka / Spark)
