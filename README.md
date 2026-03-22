@@ -25,6 +25,7 @@ Specifically, the solution aims to:
 
    ## Architecture
 ![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
+
 ## 📂 Project Structure
 
   ##  URBAN-SERVICE-ANALYTICS/
@@ -61,11 +62,7 @@ URBAN-SERVICE-ANALYTICS/
 └── .gitignore ##
 
 ## Technologies Used
-=======
-└── .gitignore
- 
-Technologies Used
->>>>>>> f5f5c96 (update README)
+
 	•	Python – ETL pipeline development
 	•	Apache Airflow – Workflow orchestration
 	•	PostgreSQL – Structured data storage
@@ -176,7 +173,7 @@ Key Features:
 	•	Explore 
 ![alt text](docs/architecture/count_complaints_for_each_location_type.png)
 ![alt text](docs/architecture/Complian_by_Complaints_type.png)
-![alt text](docs/architecture/Most frequent_descriptor_for_noise-residential.png)
+![alt text]docs/architecture/Most frequent_descriptor_for_noise-residential.png)
 
 
     Future Improvements
