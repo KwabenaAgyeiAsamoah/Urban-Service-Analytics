@@ -26,7 +26,7 @@ Specifically, the solution aims to:
    ## Architecture
 ![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
 
-  ##  URBAN-SERVICE-ANALYTICS/│
+  ##  URBAN-SERVICE-ANALYTICS/
 ├── airflow/
 │   └── civicpulse_pipeline.py        # Airflow DAG (ETL orchestration)
 │
