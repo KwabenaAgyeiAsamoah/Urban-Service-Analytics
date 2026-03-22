@@ -25,16 +25,23 @@ Specifically, the solution aims to:
 
    ## Architecture
 ![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
+## 📂 Project Structure
 
+<<<<<<< HEAD
   ##  URBAN-SERVICE-ANALYTICS/
+=======
+```bash
+URBAN-SERVICE-ANALYTICS/
+│
+>>>>>>> f5f5c96 (update README)
 ├── airflow/
 │   └── civicpulse_pipeline.py        # Airflow DAG (ETL orchestration)
 │
 ├── data/
 │   ├── raw/
-│   │   └── nyc_311_raw.csv          # Raw ingested data
+│   │   └── nyc_311_raw.csv           # Raw ingested data
 │   └── processed/
-│       └── nyc_311_clean.csv        # Cleaned dataset
+│       └── nyc_311_clean.csv         # Cleaned dataset
 │
 ├── docs/
 │   └── architecture/
@@ -43,21 +50,27 @@ Specifically, the solution aims to:
 ├── src/
 │   ├── ingest_api.py                # Extract data from API
 │   ├── transform_data.py            # Clean and transform data
-│   ├── Clean_data.py                # Additional cleaning logic
+│   ├── clean_data.py                # Additional cleaning logic
 │   ├── load_to_data_lake.py         # Store data in data lake
 │   └── load_to_db.py                # Load data into PostgreSQL
 │
 ├── terraform/
-│   ├── main.tf                      # Infrastructure resources
-│   ├── provider.tf                  # Azure provider config
-│   ├── variables.tf                 # Input variables
-│   └── output.tf                    # Outputs
+│   ├── main.tf                     # Infrastructure resources
+│   ├── provider.tf                 # Azure provider config
+│   ├── variables.tf                # Input variables
+│   └── output.tf                   # Outputs
 │
 ├── requirements.txt
 ├── README.md
+<<<<<<< HEAD
 └── .gitignore ##
 
 ## Technologies Used
+=======
+└── .gitignore
+ 
+Technologies Used
+>>>>>>> f5f5c96 (update README)
 	•	Python – ETL pipeline development
 	•	Apache Airflow – Workflow orchestration
 	•	PostgreSQL – Structured data storage
