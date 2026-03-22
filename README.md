@@ -27,13 +27,9 @@ Specifically, the solution aims to:
 ![alt text](docs/architecture/urban_data_pipeline_architecture.png.png)
 ## 📂 Project Structure
 
-<<<<<<< HEAD
   ##  URBAN-SERVICE-ANALYTICS/
-=======
-```bash
 URBAN-SERVICE-ANALYTICS/
 │
->>>>>>> f5f5c96 (update README)
 ├── airflow/
 │   └── civicpulse_pipeline.py        # Airflow DAG (ETL orchestration)
 │
@@ -62,7 +58,6 @@ URBAN-SERVICE-ANALYTICS/
 │
 ├── requirements.txt
 ├── README.md
-<<<<<<< HEAD
 └── .gitignore ##
 
 ## Technologies Used
@@ -140,7 +135,7 @@ Key Features:
 📈 Complaints Over Time
 ![alt text](docs/architecture/NYC_311_Complaints_Over_Time.png)
 📊 Top Complaint Types
-![alt text](<docs/architecture/Top_Complaint_Types _In_NYC.png>)
+![alt text](docs/architecture/Top_Complaint_Types _In_NYC.png)
 🥧 Complaints by Borough
 ![alt text](docs/architecture/NYC_Complaint_by_Borough.png)
 🍩 Complaint Status Distribution
@@ -181,7 +176,7 @@ Key Features:
 	•	Explore 
 ![alt text](docs/architecture/count_complaints_for_each_location_type.png)
 ![alt text](docs/architecture/Complian_by_Complaints_type.png)
-![alt text](<docs/architecture/Most frequent_descriptor_for_noise-residential.png>)
+![alt text](docs/architecture/Most frequent_descriptor_for_noise-residential.png)
 
 
     Future Improvements
