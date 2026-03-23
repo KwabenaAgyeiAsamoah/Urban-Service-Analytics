@@ -40,6 +40,8 @@ Specifically, the solution aims to:
 
 ![Dropdown Slicer](docs/architecture/Dropdown_Slicer.png)
 
+## Postgres(PgAdmin Visualisation)
+
 ![Count of complaints](docs/architecture/count_complaints_for_each_location_type.png)
 
 ![Complaint by type](docs/architecture/Complian_by_Complaints_type.png)
