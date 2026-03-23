@@ -48,6 +48,10 @@ Specifically, the solution aims to:
 
 ![Noise residential](docs/architecture/Most_frequent_descriptor_for_noise_residential.png)
 
+[![Top Complaint Types](docs/architecture/Top_Complaint_Types_In_NYC.png)](docs/architecture/Top_Complaint_Types_In_NYC.png)
+
+[![Noise Residential](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)
+
 
 
 
