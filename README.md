@@ -25,7 +25,30 @@ Specifically, the solution aims to:
 
    ## Architecture
 
-![Architecture Diagram](docs/architecture/urban_data_pipeline_architecture.png)
+![Architecture Diagram](docs/architecture/urban_data_pipeline_architecture.png) 
+
+## Power BI
+
+[Complaints Over Time](docs/architecture/NYC_311_Complaints_Over_Time.png)
+
+[Top Complaint Types](docs/architecture/Top_Complaint_Types_In_NYC.png)
+
+[Complaints by Borough](docs/architecture/NYC_Complaint_by_Borough.png)
+
+[Complaint Status Distribution](docs/architecture/Complaint_of_Status_Distribution.png)
+
+[NYC Complaint Map](docs/architecture/NYC_311_Complaints_Map.png)
+
+[Dropdown Slicer](docs/architecture/Dropdown_Slicer.png)
+
+[Count of complaints](docs/architecture/count_complaints_for_each_location_type.png)
+
+[Complaint by type](docs/architecture/Complian_by_Complaints_type.png)
+
+[Noise residential](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)
+
+
+
 
 ## 📁 Project Structure
 
