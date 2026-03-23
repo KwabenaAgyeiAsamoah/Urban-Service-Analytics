@@ -32,8 +32,6 @@ Specifically, the solution aims to:
 
 ![Complaints Over Time](docs/architecture/NYC_311_Complaints_Over_Time.png)
 
-![Top Complaint Types](docs/architecture/Top_Complaint_Types_In_NYC.png)
-
 ![Complaints by Borough](docs/architecture/NYC_Complaint_by_Borough.png)
 
 ![Complaint Status Distribution](docs/architecture/Complaint_of_Status_Distribution.png)
