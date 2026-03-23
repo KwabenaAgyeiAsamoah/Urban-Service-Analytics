@@ -46,7 +46,7 @@ Specifically, the solution aims to:
 
 ![Complaint by type](docs/architecture/Complian_by_Complaints_type.png)
 
-[Noise residential](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)
+![Noise residential](docs/architecture/Most_frequent_descriptor_for_noise-residential.png)
 
 
 
