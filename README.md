@@ -128,7 +128,7 @@ Key Features:
 ![Complaint Status Distribution](docs/architecture/Complaint_of_Status_Distribution.png)
 ![NYC Complaint Map](docs/architecture/NYC_311_Complaints_Map.png)
 ![Dropdown Slicer](docs/architecture/Dropdown_Slicer.png)
-
+![Count of complaints for each location type](docs/architecture/count_complaints_for_each_location_type.png)
 ## Key Insights
 	•	Complaint volume varies significantly across boroughs
 	•	A few complaint types dominate overall volume
